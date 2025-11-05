@@ -1,7 +1,7 @@
-import { socialLinks } from '../data'
-import SocialLink from './SocialLink'
+import { socialLinks } from "../data"
+import SocialLink from "./SocialLink"
 
-const PageLinks = ({ parentClass, itemClass }) => {
+const SocialLinks = ({ parentClass, itemClass }) => {
   return (
     <ul className={parentClass} id='nav-links'>
       {socialLinks.map((link) => {
